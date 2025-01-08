@@ -1,0 +1,21 @@
+# Môi trường ảo (virtual environment)
+venv/
+__pycache__/
+*.pyc
+
+# Thư mục cài đặt thư viện
+*.egg-info/
+
+# File cấu hình IDE
+.idea/
+.vscode/
+
+# Thư mục hệ thống
+.DS_Store
+Thumbs.db
+
+# Các file tạm thời của hệ thống
+*.log
+
+# File yêu cầu của môi trường ảo (có thể được tạo lại khi cần)
+Pipfile.lock
