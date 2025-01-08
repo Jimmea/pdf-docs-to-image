@@ -3,11 +3,11 @@
 Đây là một dự án API Flask để xử lý các file PDF và chuyển đổi các trang đầu của chúng thành hình ảnh, sau đó trả về kết quả dưới dạng base64.
 
 # Các thư viện sử dụng
-Flask: Framework web để xây dựng API.
-requests: Thư viện để tải file từ URL.
-pdf2image: Chuyển đổi file PDF thành hình ảnh.
-Pillow: Thư viện xử lý hình ảnh.
-PyPDF2: Thư viện để làm việc với file PDF.
+- Flask: Framework web để xây dựng API.
+- requests: Thư viện để tải file từ URL.
+- pdf2image: Chuyển đổi file PDF thành hình ảnh.
+- Pillow: Thư viện xử lý hình ảnh.
+- PyPDF2: Thư viện để làm việc với file PDF.
 
 ## Yêu cầu
 
