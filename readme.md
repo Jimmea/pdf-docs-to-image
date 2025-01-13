@@ -59,5 +59,10 @@ gunicorn -w 4 -b 0.0.0.0:8000 app:app
 API sẽ chạy trên địa chỉ mặc định http://127.0.0.1:5000/ (hoặc địa chỉ bạn đã cấu hình). Bạn có thể gửi các yêu cầu POST với tham số đường dẫn file PDF (hoặc URL file PDF) đến API để nhận kết quả.
 
 ```
+#pdf
 curl -X POST -F "file_path=https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" http://127.0.0.1:5000/process_file
+
+#docx
+curl -X POST -F "file_path=https://cdn1.123job.vn/123job/upload_cvs/2025/01/13/2025_01_13______fd2c3a98dde082083b83fee635793dd3.docx" http://127.0.0.1:8000/process_file
 ```
+
